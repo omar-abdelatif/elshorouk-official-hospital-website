@@ -1,0 +1,126 @@
+.text-decoration-underline{
+    text-decoration: underline !important;
+}
+.justify-content-evenly{
+    justify-content: space-evenly !important;
+}
+/* ! Fonts ! */
+@font-face {
+    font-family: Cairo-R;
+    src: url('../../fonts/cairo/Cairo-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto-R;
+    src: url(../../fonts/roboto/RobotoSlab-Regular.ttf);
+}
+/* ! Fonts Name ! */
+.cairo-r{
+    font-family: Cairo-R;
+}
+.roboto-r{
+    font-family: Roboto-R !important;
+}
+/* ! Home Page ! */
+.fixed-header .sticky-header .main-menu .navigation li.py-5{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.main-slider{
+    height: 400px;
+    margin-bottom: 200px !important;
+}
+.main-slider:after, .main-slider:before{
+    background: transparent !important;
+    width: auto;
+    height: auto;
+}
+.main-slider .slide{
+    overflow: hidden;
+}
+.banner-carousel{
+    height: 400px !important;
+}
+.fluid-section-one{
+    background-color: #f5f5f5;
+}
+.fluid-section-one .image-column {
+    width: 80%;
+    height: 550px;
+    position: relative;
+    bottom: 0px;
+    float: none;
+}
+.fluid-section-one .content-column{
+    width: 100%;
+    float: none;
+}
+.fluid-section-one .image-column .image{
+    display: block;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+    flex-wrap: nowrap;
+}
+.video-container video{
+    width: 100%;
+}
+.surgery-department .row{
+    flex-wrap: wrap;
+}
+.swiper-slide .image{
+    top: 20px;
+    width: 100%;
+    z-index: 0;
+}
+.department-block .inner-box:hover .upper-box h3{
+    color: white;
+}
+.main-menu .navigation > li > a{
+    font-family: Roboto-R;
+}
+.owl-carousel .owl-item img{
+    width: revert-layer;
+}
+.main-page.sec-title .separator:before{
+    width: 300px;
+    left: -95px;
+}
+.main-page.sec-title .separator::after{
+    left: 50%;
+}
+.department-block-two .inner-box .lower-content{
+    margin-top: -20px;
+}
+/* ! Doctors Page ! */
+.main-doctors .outer-section{
+    background-color: #f5f5f5;
+}
+.resident-doctors .sec-title .separator:before {
+    left: -95px;
+}
+.resident-doctors .sec-title .separator:after {
+    left: 60%;
+}
+/* ! Contact Page ! */
+.contact-page-section .sec-title .separator:before {
+    left: -95px;
+}
+.contact-page-section .sec-title .separator:after {
+    left: 60%;
+}
+/* ! Research Page ! */
+/* .research-slider img{
+    height: 380px;
+} */
+/* .research-slider:after, .research-slider:before{
+    background: transparent !important;
+    width: auto;
+    height: auto;
+} */
+.swiper-button-next, .swiper-button-prev{
+    top: 30% !important;
+}
+/* .research-slider .slide{
+    overflow: hidden;
+} */
