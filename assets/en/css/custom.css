@@ -45,12 +45,19 @@ a.text-primary:focus, a.text-primary:hover{
     font-family: Roboto-R;
     src: url(../../fonts/roboto/RobotoSlab-Regular.ttf);
 }
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
 /* ! Fonts Name ! */
 .cairo-r{
     font-family: Cairo-R;
 }
 .roboto-r{
     font-family: Roboto-R !important;
+}
+.montserrat{
+    font-family: Montserrat !important;
 }
 /* ! Upper Navbar ! */
 .main-header .header-top{
