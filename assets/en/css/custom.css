@@ -1,8 +1,40 @@
+:root{
+    --primary: #0da6a9 !important;
+    --primary-light: #00aab4 !important;
+    --secondary: #f2972a !important;
+    --secondary-light: #f7bd28 !important;
+    --white: #fff !important;
+
+}
 .text-decoration-underline{
     text-decoration: underline !important;
 }
 .justify-content-evenly{
     justify-content: space-evenly !important;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+.bg-secondary-light{
+    background-color: var(--secondary-light) !important;
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.text-secondary{
+    color: var(--secondary) !important;
+}
+.text-secondary-light{
+    color: var(--secondary-light) !important;
+}
+.page-title:before{
+    background-image: linear-gradient(to right, var(--primary), var(--primary-light)) !important;
+}
+a.text-primary:focus, a.text-primary:hover{
+    color: var(--secondary) !important;
 }
 /* ! Fonts ! */
 @font-face {
@@ -19,6 +51,16 @@
 }
 .roboto-r{
     font-family: Roboto-R !important;
+}
+/* ! Upper Navbar ! */
+.main-header .header-top{
+    background-color: var(--primary);
+}
+.main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a{
+    color: var(--primary);
+}
+.main-slider .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background-color: var(--secondary);
 }
 /* ! Home Page ! */
 .fixed-header .sticky-header .main-menu .navigation li.py-5{
@@ -90,7 +132,61 @@
     left: 50%;
 }
 .department-block-two .inner-box .lower-content{
+    background-color: var(--primary);
     margin-top: -20px;
+}
+.main-slider .swiper-button-prev:before, .main-slider .swiper-button-next:before{
+    color: var(--primary);
+}
+.main-slider .swiper-button-prev, .main-slider .swiper-button-next{
+    border: 1px solid var(--primary);
+}
+.main-slider .swiper-button-next:hover, .main-slider .swiper-button-prev:hover{
+    background-color: var(--primary);
+}
+.department-section .sec-title .separator:after{
+    background-color: var(--primary);
+}
+.department-block .inner-box:hover{
+    border-color: var(--primary);
+}
+.department-block .inner-box:before{
+    background-color: var(--primary);
+}
+.department-section .owl-dots .owl-dot.active, .department-section .owl-dots .owl-dot:hover{
+    background-color: var(--primary);
+}
+.department-section-two .sec-title .separator:after{
+    background-color: var(--primary);
+}
+.department-section-two .owl-dots .owl-dot.active, .department-section-two .owl-dots .owl-dot:hover{
+    background-color: var(--primary);
+}
+.page-wrapper .sec-title .separator::after{
+    background-color: var(--primary);
+}
+.services-section .circles-column .circles .circle-two:before{
+    background-color: var(--primary);
+}
+.services-section .circles-column .circles .circle-one:before{
+    border-color: var(--primary);
+}
+.sticky-header .main-menu .navigation > li:hover > a, .sticky-header .main-menu .navigation > li.current > a, .sticky-header .main-menu .navigation > li.current-menu-item > a{
+    color: var(--primary);
+}
+.scroll-to-top:hover{
+    background-color: var(--primary);
+}
+.counter-section:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 0;
 }
 /* ! Doctors Page ! */
 .main-doctors .outer-section{
@@ -101,6 +197,7 @@
 }
 .resident-doctors .sec-title .separator:after {
     left: 60%;
+    background-color: var(--primary);
 }
 /* ! Contact Page ! */
 .contact-page-section .sec-title .separator:before {
@@ -108,19 +205,20 @@
 }
 .contact-page-section .sec-title .separator:after {
     left: 60%;
+    background-color: var(--primary);
 }
-/* ! Research Page ! */
-/* .research-slider img{
-    height: 380px;
-} */
-/* .research-slider:after, .research-slider:before{
-    background: transparent !important;
-    width: auto;
-    height: auto;
-} */
-/* .swiper-button-next, .swiper-button-prev{
-    top: 30% !important;
-} */
-/* .research-slider .slide{
-    overflow: hidden;
-} */
+.btn-style-two{
+    background-color: var(--secondary);
+    color: black;
+}
+/* ! Affiliations ! */
+.news-block-two .inner-box:hover::before{
+    background-color: var(--secondary);
+}
+/* ! Footer ! */
+.main-footer .footer-bottom{
+    background-color: var(--primary);
+}
+.main-footer .footer-widget .footer-title .separator:after{
+    background-color: var(--secondary);
+}
