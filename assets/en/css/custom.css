@@ -217,6 +217,9 @@ a.text-primary:focus, a.text-primary:hover{
     background-color: var(--secondary);
     color: black;
 }
+.main-footer .contact-list li .icon{
+    color: #000;
+}
 /* ! Affiliations ! */
 .news-block-two .inner-box:hover::before{
     background-color: var(--secondary);

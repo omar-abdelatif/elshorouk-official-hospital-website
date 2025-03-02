@@ -152,6 +152,9 @@
 .btn-style-two{
     background-color: var(--secondary);
 }
+.main-footer .contact-list li .icon{
+    color: #000;
+}
 /* ! Footer ! */
 .main-footer .footer-bottom{
     background-color: var(--primary);
