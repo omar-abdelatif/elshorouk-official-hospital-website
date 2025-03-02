@@ -1,0 +1,161 @@
+:root{
+    --primary: #0da6a9 !important;
+    --primary-light: #00aab4 !important;
+    --secondary: #f2972a !important;
+    --secondary-light: #f7bd28 !important;
+    --white: #fff !important;
+}
+/* ! Fonts ! */
+@font-face {
+    font-family: Cairo-M;
+    src: url('../../fonts/cairo/Cairo-Medium.ttf');
+}
+@font-face {
+    font-family: Roboto-R;
+    src: url(../../fonts/roboto/RobotoSlab-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+/* ! Fonts Name ! */
+.cairo-m{
+    font-family: Cairo-M !important;
+}
+.roboto-r{
+    font-family: Roboto-R !important;
+}
+.montserrat{
+    font-family: Montserrat !important;
+}
+.text-right{
+    text-align: right !important;
+}
+/* ! Upper Navbar ! */
+.main-header .header-top{
+    background-color: var(--primary);
+}
+.main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a{
+    color: var(--primary);
+}
+.main-slider .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background-color: var(--secondary);
+}
+/* ! Navbar ! */
+.fixed-header .sticky-header .main-menu .navigation li.py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.fixed-header .sticky-header .logo
+.main-slider{
+    height: 400px;
+    margin-bottom: 200px !important;
+}
+.main-slider:after, .main-slider:before{
+    background: transparent !important;
+    width: auto;
+    height: auto;
+}
+.main-slider .slide{
+    overflow: hidden;
+}
+.main-slider .swiper-button-prev:before, .main-slider .swiper-button-next:before{
+    color: var(--primary);
+}
+.main-slider .swiper-button-prev, .main-slider .swiper-button-next{
+    border: 1px solid var(--primary);
+}
+.main-slider .swiper-button-next:hover, .main-slider .swiper-button-prev:hover{
+    background-color: var(--primary);
+}
+.sticky-header .main-menu .navigation > li:hover > a, .sticky-header .main-menu .navigation > li.current > a, .sticky-header .main-menu .navigation > li.current-menu-item > a{
+    color: var(--primary);
+}
+.banner-carousel{
+    height: 400px !important;
+}
+.banner-carousel .swiper-slide .image{
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+.department-block .inner-box:hover .upper-box h3{
+    color: white;
+}
+.department-block-two .inner-box .lower-content{
+    background-color: var(--primary);
+    margin-top: -20px;
+}
+.surgery-department .services-carousel .department-block .inner-box .upper-box div img{
+    width: revert-layer;
+}
+.video-container video{
+    width: 100%;
+}
+.team-block .inner-box .image{
+    background-color: transparent;
+}
+.department-block-two .inner-box .lower-content{
+    background-color: var(--primary);
+    margin-top: -20px;
+}
+.department-section .sec-title .separator:after{
+    background-color: var(--primary);
+}
+.department-block .inner-box:hover{
+    border-color: var(--primary);
+}
+.department-block .inner-box:before{
+    background-color: var(--primary);
+}
+.department-section .owl-dots .owl-dot.active, .department-section .owl-dots .owl-dot:hover{
+    background-color: var(--primary);
+}
+.department-section-two .sec-title .separator:after{
+    background-color: var(--primary);
+}
+.department-section-two .owl-dots .owl-dot.active, .department-section-two .owl-dots .owl-dot:hover{
+    background-color: var(--primary);
+}
+.page-wrapper .sec-title .separator::after{
+    background-color: var(--primary);
+}
+.services-section .circles-column .circles .circle-two:before{
+    background-color: var(--primary);
+}
+.services-section .circles-column .circles .circle-one:before{
+    border-color: var(--primary);
+}
+.scroll-to-top:hover{
+    background-color: var(--primary);
+}
+/* ! Doctors Page ! */
+.main-doctors .separator::before{
+    left: -250px;
+}
+.resident-doctors .separator::before{
+    left: -590px;
+}
+.main-doctors .separator::after{
+    left: -200px;
+}
+.resident-doctors .separator::after{
+    left: -540px;
+}
+.contact-page-section .sec-title .separator:before{
+    left: -540px;
+}
+.contact-page-section .sec-title .separator:after{
+    left: -490px;
+}
+/* ! Contact Page ! */
+.btn-style-two{
+    background-color: var(--secondary);
+}
+/* ! Footer ! */
+.main-footer .footer-bottom{
+    background-color: var(--primary);
+}
+.main-footer .footer-widget .footer-title .separator:after{
+    background-color: var(--secondary);
+}
