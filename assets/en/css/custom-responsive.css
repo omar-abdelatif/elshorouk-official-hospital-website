@@ -1,0 +1,179 @@
+@media (max-width: 767px){
+    /* ! Navbar ! */
+    .nav-outer .mobile-nav-toggler .icon{
+        color: #0da6a9 !important;
+    }
+    /* ! Home Page ! */
+    .main-slider{
+        margin-bottom: 100px !important;
+    }
+}
+@media (max-width: 512px){
+    /* ! Navbar ! */
+    .main-header .header-top .top-right .social-icons li:first-child{
+        margin-left: 0;
+    }
+    .main-header .header-upper .inner-container .logo-outer .logo{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .main-header .header-upper .inner-container .logo-outer .logo a img{
+        width: 150px;
+    }
+    .mobile-menu .menu-box .nav-logo{
+        text-align: center;
+    }
+    .mobile-menu .menu-box .nav-logo a img {
+        width: 150px;
+    }
+    .mobile-menu .navigation .py-5{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    /* ! Home Page ! */
+    .main-slider{
+        height: 300px !important;
+        margin-bottom: 50px !important;
+    }
+    .main-slider.mb-5{
+        margin-bottom: 0 !important;
+    }
+    .main-slider.pb-5{
+        padding-bottom: 0 !important;
+    }
+    .banner-carousel{
+        height: 245px !important;
+    }
+    .swiper-slide .image{
+        top: 45px !important;
+    }
+    .dr-kamal .image{
+        top: 30px !important;
+    }
+    .dr-kamal .image img{
+        width: 300px !important;
+    }
+    .dr-wael .image{
+        top: 30px !important;
+    }
+    .main-footer .widgets-section{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    /* ! Doctors Page ! */
+    .page-title{
+        padding: 80px 0px 0px !important;
+    }
+    .page-title .auto-container{
+        padding-bottom: 80px !important;
+    }
+    .page-title h1{
+        margin-bottom: 0;
+        font-size: 1.5rem !important;
+        text-align: center !important;
+    }
+    .page-title:after{
+        height: 40px !important;
+    }
+    .page-title .bread-crumb li{
+        line-height: 0 !important;
+        font-size: 14px !important;
+    }
+    .page-title .bread-crumb li:after{
+        top: 7px !important;
+    }
+    .page-title .bread-crumb li a{
+        font-size: 14px !important;
+        line-height: 0 !important;
+    }
+    .main-doctors .content-column .content-box .sec-title h2{
+        text-align: center;
+    }
+    .main-doctors .content-column .content-box .separator{
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .sec-title{
+        margin-bottom: 30px !important;
+        margin-top: 30px;
+    }
+    .main-doctors .row:nth-child(3){
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .resident-doctors .sec-title .separator:before{
+        left: 6px;
+    }
+    .resident-doctors .row .col-lg-6:first-child{
+        margin-bottom: 15px;
+    }
+    /* ! Researches Page ! */
+    .page-title.mb-5{
+        margin-bottom: 0 !important;
+    }
+    .research-slider .owl-stage-outer .owl-stage .owl-item .slide-item{
+        height: 350px !important;
+    }
+    .owl-nav{
+        display: none !important;
+    }
+    .fluid-section-one.py-5{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .fluid-section-one.my-5{
+        margin-top: 0 !important;
+    }
+    .section-logo{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        text-align: center;
+    }
+    .section-logo img {
+        width: 250px !important;
+    }
+    .sponsors.py-5{
+        padding-top: 0 !important;
+    }
+    .sponsors-carousel .owl-stage-outer .owl-stage .owl-item:nth-child(4) .slide-item .image-box{
+        height: 250px !important;
+        display: flex;
+        align-items: center;
+    }
+    .doctors-researches.fluid-section-one{
+        padding-top: 30px !important;
+    }
+    .doctors-researches.fluid-section-one{
+        margin-bottom: 0px !important;
+    }
+    /* ! Affiliations Page ! */
+    .blog-page-section .row:nth-child(2).mt-5{
+        margin-top: 0px !important;
+    }
+    .blog-page-section .row:nth-child(2) .blog-block{
+        margin-top: 2rem !important;
+    }
+    .blog-page-section .row:nth-child(2) .blog-block .inner-box .text-content h3{
+        font-size: 1.5rem !important;
+        text-decoration: underline !important;
+    }
+    /* ! Contact Page ! */
+    .contact-page-section{
+        padding: 60px 0px 0px;
+    }
+    .contact-map-section.py-5{
+        padding-bottom: 0 !important;
+    }
+    .contact-page-section .sec-title .separator:before{
+        left: 7px;
+    }
+    .map-content{
+        display: none;
+    }
+    .map-outer{
+        height: 450px !important;
+    }
+    .map-outer iframe{
+        width: 100% !important;
+    }
+}
