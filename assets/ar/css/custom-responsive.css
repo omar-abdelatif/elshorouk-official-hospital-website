@@ -1,0 +1,124 @@
+@media (max-width: 1024px){
+    /* ! Upper Header ! */
+    .rtl .main-header .header-top .top-left .list li{
+        margin-left: 0;
+    }
+    /* ! Navbar ! */
+    .main-header .header-upper .nav-outer{
+        width: auto;
+    }
+    /* ! Home Page ! */
+    .swiper-slide .image{
+        top: 50px !important;
+    }
+    .dr-wael .image{
+        top: 10px !important;
+    }
+    .main-slider.mb-5{
+        margin-bottom: 50px !important;
+    }
+    .department-section {
+        padding: 50px 0px 50px !important;
+    }
+    .department-section-two {
+        padding: 0px 0px 50px !important;
+    }
+    .fluid-section-one.py-5{
+        padding-top: 1rem !important;
+    }
+    .main-page{
+        display: none;
+    }
+    .services-section{
+        padding: 50px 0px 50px !important;
+    }
+    .team-section{
+        padding: 0px 0px 50px !important;
+    }
+    .rtl .service-block-two .inner-box{
+        text-align: center;
+    }
+    .fluid-section-one .content-column .content-box .sec-title{
+        text-align: center !important;
+    }
+    .fluid-section-one .content-column .content-box .sec-title .separator::before{
+        left: -310px !important;
+    }
+    .fluid-section-one .content-column .content-box .sec-title .separator::after{
+        left: -260% !important;
+    }
+    /* ! Doctors Page ! */
+    .main-doctors .row:first-child .col-lg-6:last-child .content-column .content-box .sec-title .separator::before {
+        left: -315px !important;
+    }
+    .main-doctors .row:first-child .col-lg-6:last-child .content-column .content-box .sec-title .separator::after {
+        left: -265px !important;
+    }
+    .main-doctors .row:nth-child(2)  {
+        margin-top: 35px;
+    }
+    .main-doctors .separator::before {
+        left: -310px !important;
+    }
+    .main-doctors .separator::after {
+        left: -260px !important;
+    }
+    .main-doctors .row:nth-child(2) .image-column, .main-doctors .row:nth-child(3) .image-column {
+        margin-top: 35px;
+    }
+    .main-doctors .row:last-child .sec-title {
+        padding-top: 2rem;
+    }
+    .resident-doctors .row .col-lg-6:first-child {
+        margin-bottom: 1rem;
+    }
+    .resident-doctors .separator::before{
+        left: -320px !important;
+    }
+    .resident-doctors .separator::after{
+        left: -268px !important;
+    }
+    /* ! Researches Page ! */
+    .fluid-section-one .section-logo img {
+        width: 350px !important;
+    }
+    .fluid-section-one .section-logo {
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    .sponsors.py-5{
+        padding-top: 0 !important;
+    }
+    .sponsors .row .col-lg-6:first-child{
+        margin-bottom: 2rem;
+    }
+    /* ! Affliations Page ! */
+    .blog-page-section .row:nth-child(2).mt-5{
+        margin-top: 0 !important;
+    }
+    .blog-page-section .row:nth-child(2) .col-lg-6:last-child .blog-block{
+        margin-top: 50px;
+    }
+    /* ! Contact Page ! */
+    .contact-page-section .sec-title .separator::before{
+        left: -310px !important;
+    }
+    .contact-page-section .sec-title .separator::after{
+        left: -263px !important;
+    }
+    .contact-map-section.py-5{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .map-content{
+        display: none;
+    }
+    .map-outer{
+        height: 450px !important;
+    }
+    .map-outer iframe{
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px){}
+@media (max-width: 512px){}

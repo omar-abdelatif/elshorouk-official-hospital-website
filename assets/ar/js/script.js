@@ -172,34 +172,37 @@
 	if ($('.services-carousel').length) {
 		$('.services-carousel').owlCarousel({
 			animateOut: 'slideOutDown',
-    		animateIn: 'fadeIn',
-			loop:true,
-			margin:30,
-			nav:true,
-			singleItem:true,
+			animateIn: 'fadeIn',
+			loop: true,
+			margin: 30,
+			nav: true,
+			singleItem: true,
 			smartSpeed: 500,
 			autoHeight: false,
 			autoplay: true,
-			autoplayTimeout:10000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
+			autoplayTimeout: 10000,
+			navText: [
+				'<span class="fa fa-angle-left"></span>',
+				'<span class="fa fa-angle-right"></span>',
+			],
+			responsive: {
+				0: {
+					items: 1,
 				},
-				600:{
-					items:1
+				600: {
+					items: 3,
 				},
-				800:{
-					items:2
+				800: {
+					items: 2,
 				},
-				1024:{
-					items:3
+				1024: {
+					items: 3,
 				},
-				1280:{
-					items:3
-				}
-			}
-		});    		
+				1280: {
+					items: 3,
+				},
+			},
+		});
 	}
 	
 	
@@ -278,37 +281,38 @@
 	if ($('.testimonial-carousel').length) {
 		$('.testimonial-carousel').owlCarousel({
 			animateOut: 'slideOutDown',
-    		animateIn: 'fadeIn',
-			loop:true,
-			margin:0,
-			nav:true,
-			singleItem:true,
+			animateIn: 'fadeIn',
+			loop: true,
+			margin: 0,
+			nav: true,
+			singleItem: true,
 			smartSpeed: 500,
 			autoHeight: false,
 			autoplay: true,
-			autoplayTimeout:10000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
+			autoplayTimeout: 10000,
+			navText: [
+				'<span class="fa fa-angle-left"></span>',
+				'<span class="fa fa-angle-right"></span>',
+			],
+			responsive: {
+				0: {
+					items: 1,
 				},
-				600:{
-					items:1
+				600: {
+					items: 1,
 				},
-				800:{
-					items:2
+				800: {
+					items: 2,
 				},
-				1024:{
-					items:2
+				1024: {
+					items: 2,
 				},
-				1280:{
-					items:2
-				}
-			}
-		});    		
+				1280: {
+					items: 2,
+				},
+			},
+		});
 	}
-	
-	
 	
 	// Sponsors Item Carousel
 	if ($('.sponsors-carousel').length) {
