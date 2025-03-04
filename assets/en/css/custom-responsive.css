@@ -1,3 +1,78 @@
+@media (max-width: 1024px){
+    /* ! Navbar ! */
+    .main-header .header-upper .nav-outer{
+        width: auto;
+    }
+    /* ! Home Page ! */
+    .swiper-slide .image{
+        top: 50px !important;
+    }
+    .dr-wael .image{
+        top: 10px !important;
+    }
+    .main-slider.mb-5{
+        margin-bottom: 50px !important;
+    }
+    .department-section {
+        padding: 50px 0px 50px !important;
+    }
+    .department-section-two {
+        padding: 0px 0px 50px !important;
+    }
+    .fluid-section-one.py-5{
+        padding-top: 1rem !important;
+    }
+    /* ! Doctors Page ! */
+    .main-doctors .row:nth-child(2) .sec-title {
+        padding-top: 1.5rem;
+    }
+    .main-doctors .row:nth-child(3) .image-column {
+        padding-top: 2rem;
+    }
+    .main-doctors .row:last-child .sec-title {
+        padding-top: 2rem;
+    }
+    .resident-doctors .row .col-lg-6:first-child {
+        margin-bottom: 1rem;
+    }
+    /* ! Researches Page ! */
+    .page-title.mb-5{
+        margin-bottom: 0 !important;
+    }
+    .fluid-section-one .section-logo img{
+        width: 50% !important;
+    }
+    .fluid-section-one .section-logo{
+        text-align: center !important;
+        margin-bottom: 2rem;
+    }
+    .doctors-researches .sec-title{
+        padding-top: 2rem !important;
+    }
+    /* ! Affiliactions Page ! */
+    .blog-page-section .row.pt-5{
+        padding-top: 0 !important;
+    }
+    .blog-page-section .row .col-lg-6:last-child{
+        margin-top: 2rem !important;
+    }
+    /* ! Contact Page ! */
+    .contact-page-section{
+        padding: 110px 0px 0px;
+    }
+    .contact-map-section.py-5{
+        padding-bottom: 0 !important;
+    }
+    .map-content{
+        display: none;
+    }
+    .map-outer{
+        height: 450px !important;
+    }
+    .map-outer iframe{
+        width: 100% !important;
+    }
+}
 @media (max-width: 767px){
     /* ! Navbar ! */
     .nav-outer .mobile-nav-toggler .icon{

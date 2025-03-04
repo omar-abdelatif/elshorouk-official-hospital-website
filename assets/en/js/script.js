@@ -220,34 +220,37 @@
 	if($('.research-slider'.length)) {
 		$('.research-slider').owlCarousel({
 			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-			loop:true,
-			margin:30,
-			nav:true,
-			singleItem:true,
+			animateIn: 'fadeIn',
+			loop: true,
+			margin: 30,
+			nav: true,
+			singleItem: false,
 			smartSpeed: 500,
 			autoHeight: false,
 			autoplay: true,
-			autoplayTimeout:10000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
+			autoplayTimeout: 10000,
+			navText: [
+				'<span class="fa fa-angle-left"></span>',
+				'<span class="fa fa-angle-right"></span>',
+			],
+			responsive: {
+				0: {
+					items: 1,
 				},
-				600:{
-					items:2
+				600: {
+					items: 1,
 				},
-				800:{
-					items:2
+				800: {
+					items: 1,
 				},
-				1024:{
-					items:3
+				1024: {
+					items: 1,
 				},
-				1280:{
-					items:1
-				}
-			}
-		})
+				1280: {
+					items: 1,
+				},
+			},
+		});
 	}
 
 	// Doctor Gallery Carousel
