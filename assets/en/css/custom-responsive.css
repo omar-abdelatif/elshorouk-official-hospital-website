@@ -255,3 +255,12 @@
         width: 100% !important;
     }
 }
+@media (max-width: 360px){
+    /* ! Footer ! */
+    .main-footer .widgets-section .footer-column:last-child .footer-widget{
+        margin-bottom: 0 !important;
+    }
+    .main-footer .widgets-section .footer-column:last-child .footer-widget .contact-list li:last-child a{
+        font-size: 15px;
+    }
+}
