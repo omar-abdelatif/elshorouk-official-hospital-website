@@ -88,13 +88,6 @@
     .main-header .header-top .top-right .social-icons li:first-child{
         margin-left: 0;
     }
-    .main-header .header-upper .inner-container .logo-outer .logo{
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
-    .main-header .header-upper .inner-container .logo-outer .logo a img{
-        width: 150px;
-    }
     .mobile-menu .menu-box .nav-logo{
         text-align: center;
     }
