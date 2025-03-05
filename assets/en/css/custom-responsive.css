@@ -131,6 +131,9 @@
     .dr-wael .image{
         top: 30px !important;
     }
+    .department-section{
+        padding: 0px !important;
+    }
     .main-footer .widgets-section{
         padding-top: 50px;
         padding-bottom: 30px;
